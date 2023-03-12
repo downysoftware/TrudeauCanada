@@ -1,0 +1,24 @@
+<m_GeometrySet>
+<m_ModelInstances>
+<Element>
+<m_Name text="DIS_COM_Market_Modern_PIL"/>
+<m_GeoName text="IMP_Tim_Hortons_PIL"/>
+<m_GroupStates>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="DIS_COM_Base"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="DIS_COM_Base"/>
+<m_MeshName text="DIS_COM_Market_Modern_Bld_PIL"/>
+<m_StateName text="Default"/>
+</Element>
+</m_GroupStates>
+</Element>
+</m_ModelInstances>
+</m_GeometrySet>

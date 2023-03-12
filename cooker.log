@@ -1,0 +1,30 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+XLP cook starting...
+C:\Civilization VI Mods\TrudeauCanada\TrudeauCanada\XLPs\TileBases.xlp
+Opened output file: C:\Users\otaku\OneDrive\Documents\My Games\Sid Meier's Civilization VI\Mods\TrudeauCanada\Platforms\MacOS\BLPs/landmarks/tilebases.blp    For XLP: 'C:\Civilization VI Mods\TrudeauCanada\TrudeauCanada\XLPs\TileBases.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'landmarks/tilebases'
+
+****** Log from Geometry: 'IMP_Tim_Hortons' ********
+--------------
+Geo IMP_Tim_Hortons Mesh DIS_COM_Market_Modern_Bld006 : 15 vertices removed by tangent merger.
+Geo IMP_Tim_Hortons mesh DIS_COM_Market_Modern_Bld006 flagged for possible vertex duplication. Vertex Count: 423, Index Count: 696, Tri Count 232, Reused Vertices: 230, Duplicate Vertices: 0, Duplicate Positions: 147, Vertex:Tri Ratio: 1.82
+
+****** Log from Geometry: 'IMP_Tim_Hortons_PIL' ********
+--------------
+Geo IMP_Tim_Hortons_PIL Mesh DIS_COM_Market_Modern_Bld_PIL : 27 vertices removed by tangent merger.
+Geo IMP_Tim_Hortons_PIL mesh DIS_COM_Market_Modern_Bld_PIL flagged for possible vertex duplication. Vertex Count: 551, Index Count: 792, Tri Count 264, Reused Vertices: 219, Duplicate Vertices: 0, Duplicate Positions: 176, Vertex:Tri Ratio: 2.09
+
+****** Log from Geometry: 'IMP_Tim_Hortons_CON' ********
+--------------
+Geo IMP_Tim_Hortons_CON Mesh DIS_COM_Market_Modern_Bld_CON : 27 vertices removed by tangent merger.
+Geo IMP_Tim_Hortons_CON Mesh Object19930 : 148 vertices removed by tangent merger.
+Geo IMP_Tim_Hortons_CON mesh DIS_COM_Market_Modern_Bld_CON flagged for possible vertex duplication. Vertex Count: 551, Index Count: 792, Tri Count 264, Reused Vertices: 219, Duplicate Vertices: 0, Duplicate Positions: 176, Vertex:Tri Ratio: 2.09
+Geo IMP_Tim_Hortons_CON mesh Object19930 flagged for possible vertex duplication. Vertex Count: 440, Index Count: 816, Tri Count 272, Reused Vertices: 228, Duplicate Vertices: 0, Duplicate Positions: 172, Vertex:Tri Ratio: 1.62
+Load finished for: 'landmarks/tilebases' in 0.176 seconds
+Cook finished for: 'landmarks/tilebases' in 0.001 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.047 seconds
+Cleanup finished for: 'landmarks/tilebases' in 0.001 seconds
+XLP cook completed with success.
+Cook completed in 0.234 seconds

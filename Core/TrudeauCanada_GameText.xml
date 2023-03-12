@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--MOD-->
+		<Row Tag="LOC_MOD_TRUDEAU_CANADA_DESCRIPTION" Language="en_US">
+			<Text>------------------------------------[NEWLINE]LEADER -- TRUDEAU[NEWLINE][NEWLINE]TRAIT - CULTURAL IMPORTS[NEWLINE]+10% [ICON_PRODUCTION] District Production per active Alliance, and can support 1 more District than normal with at least one Level 3 Alliance. +25% Alliance Points generation during wartime.[NEWLINE][NEWLINE]AGENDA - ALLIANCE BUILDER[NEWLINE]Tries to form as many Alliances as possible, especially with those that are high in [ICON_CULTURE] Culture. Distrusts civilizations that start wars on his continent, especially if they are high in [ICON_SCIENCE] Science.</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_TRUDEAU_NAME" Language="en_US">
+			<Text>Justin Trudeau</Text>
+		</Row>
+		<!--Agenda-->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CULTURAL_IMPORTS_REASON_ATTACKED_CONTINENT" Language="en_US">
+			<Text>(You started a war on his continent)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CULTURAL_IMPORTS_BUILDER_ATTACKED_CONTINENT" Language="en_US">
+			<Text>Trudeau resents your warmongering.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CULTURAL_IMPORTS_REASON_ATTACKED_CONTINENT_AND_LEADS_SCIENCE" Language="en_US">
+			<Text>(You started a war on his continent and are strong in Culture)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CULTURAL_IMPORTS_ATTACKED_CONTINENT_AND_LEADS_SCIENCE" Language="en_US">
+			<Text>Trudeau fears your power.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CULTURAL_IMPORTS_REASON_LEADS_SCIENCE" Language="en_US">
+			<Text>(You are strong in Culture)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CULTURAL_IMPORTS_BUILDER_LEADS_SCIENCE" Language="en_US">
+			<Text>Trudeau is impressed by your advancements.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CULTURAL_IMPORTS_REASON_RELIGION_RECEIVED" Language="en_US">
+			<Text>(You have spread your Religion to his people)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_CULTURAL_IMPORTS_RELIGION_RECEIVED" Language="en_US">
+			<Text>Trudeau values the knowledge of your missionaries.</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_TRUDEAU" Language="en_US">
+			<Text>As Prime Minister of Canada, you bring with you a vision of cooperation, peace, and progress. Your commitment to diversity and inclusion, and your focus on diplomacy, has earned you the admiration of many nations. As you step onto this new stage, the challenges ahead are great, but so too are the opportunities.</Text>
+		</Row>
+		<!--Unique Improvement-->
+		<Row Tag="LOC_IMPROVEMENT_TRUDEAU_UI_NAME" Language="en_US">
+			<Text>Tim Hortons</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Tim Hortons, unique to Canada.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Amenity. +1 [ICON_CULTURE] Culture for each adjacent Tundra, Tundra Hills, Snow, and Snow Hills tile. Provides [ICON_Tourism] Tourism from Culture once Flight is unlocked. +2 [ICON_FOOD] Food and [ICON_PRODUCTION] Production once the Cold War civic is unlocked. +4 [ICON_CULTURE] Culture if adjacent to a Stadium building. One per city. +2 Appeal.</Text>
+		</Row>
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_CULTURAL_IMPORTS_NAME" Language="en_US">
+			<Text>Cultural Imports</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CULTURAL_IMPORTS_DESCRIPTION" Language="en_US">
+			<Text>+10% [ICON_PRODUCTION] District Production per active Alliance, and can support 1 more District than normal with at least one Level 3 Alliance. +25% Alliance Points generation during peacetime.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ALLIANCE_BUILDER_NAME" Language="en_US">
+			<Text>Alliance Builder</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ALLIANCE_BUILDER_DESCRIPTION" Language="en_US">
+			<Text>Tries to form as many Alliances as possible, especially with those that are high in [ICON_CULTURE] Culture. Distrusts civilizations that start wars on his continent, especially if they are low in [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TRUDEAU_TITLE" Language="en_US">
+			<Text>Trudeau</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TRUDEAU_SUBTITLE" Language="en_US">
+			<Text>Prime Minister of Canada</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TRUDEAU_QUOTE" Language="en_US">
+			<Text>Diversity is Canada's strength and our diversity is our promise. It's not something to be feared, it's something to be celebrated.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TRUDEAU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Justin Trudeau was born on December 25, 1971, in Ottawa, Canada, and is the son of former Canadian Prime Minister Pierre Trudeau.[NEWLINE][NEWLINE]Trudeau was elected as the leader of the Liberal Party of Canada in 2013 and led the party to victory in the 2015 federal election, becoming Canada's 23rd Prime Minister. During his tenure, he has focused on promoting diversity, inclusion, and reconciliation with Canada's Indigenous peoples. He has also emphasized the importance of diplomacy and peaceful coexistence on the global stage, and has been a vocal advocate for addressing climate change.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TRUDEAU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Trudeau's leadership has been marked by his energetic personality and his willingness to engage with citizens directly through social media and public appearances. He has been praised for his efforts to promote human rights and social justice, as well as his commitment to promoting Canada's unique cultural contributions.</Text>
+		</Row>
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Welcome to Canada, my friend. I'm Justin Trudeau, Prime Minister of Canada, and I'm very happy to be here with you today.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>While we celebrate our similarities, we also celebrate our differences. It is through that diversity that we learn from each other, we grow, and we build a better future together.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Yes, of course.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I look forward to continuing to strengthen the relationship between our two great countries. What do you say to exchanging information about our Capitals?</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Welcome to Canada.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I eagerly accept your delegation. I want to learn more about your country and its people, and to find new ways to work together for the benefit of our citizens.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Of course, we have to engage constructively with the world, but my first and foremost job is to serve the people of Canada. I have to decline.</Text>
+		</Row>
+		<!--AI Requests-->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Won't you accept a Canadian delegation? I would love to share Canada's culture with you.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I accept.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>As Prime Minister, I always have to make decisions that are in the best interests of Canadians. Sometimes that means saying 'no' to offers or proposals that don't align with our values or priorities.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada has always been a trading nation, and we know that our prosperity depends on our ability to trade with other countries. I come to negotiate a way to open our borders.</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada is a country that believes in the power of friendship, and we know that by working together, we can accomplish great things.</Text>
+		</Row>
+		<!--AI Rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada is a country that believes in speaking the truth and being upfront with our international partners. Sometimes that means saying 'no' to offers or proposals that don't align with our values or priorities.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada is a country that values collaboration, and we believe that by working together with our international partners, we can create a better world for all. Will you accept our friendship?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Let's continue to work together to overcome the challenges that lie ahead.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I am deeply concerned about the impact that this decision will have on Canadians.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada is a country that has always welcomed new ideas, new people, and new ways of doing things. We know that progress is made by bringing together different perspectives and talents.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Your nation is a prime example of a modern and prosperous state, and we can all learn from your success.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>As Canadians, we're polite, we're reasonable, but we also will not be pushed around.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>We will not escalate and we will not back down. Please remove your troops from our border.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TRUDEAU_ANY}</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TRUDEAU_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>You disappoint the Canadian people.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>It is clear that your actions are causing harm to my people, and I will not tolerate it. (Denounces You)</Text>
+		</Row>
+		<!--Rationale-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_ALLIANCE_BUILDER_ATTACKED_CONTINENT" Language="en_US">
+			<Text>(You started a war on his continent)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_ALLIANCE_BUILDER_ATTACKED_CONTINENT_AND_LEADS_SCIENCE" Language="en_US">
+			<Text>(You started a war on his continent and are strong in Science)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>This storm will pass. It won't be here forever. But the loss of life, the loss of property, the impact on businesses--this will be felt for a long time.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canadians have been very clear that we will stand up for our workers and our communities, and that's exactly what we're going to do. We will not be pushed around!</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I accept, and I appreciate your willingness to engage in this important conversation.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>I reject your offer.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>Canada is fully committed to working towards a lasting peace.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>We cannot continue this conflict any longer. I implore you to spare any more unnecessary harm to innocent people.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_TRUDEAU_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TRUDEAU_ANY]</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_TRUDEAU_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TRUDEAU_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TRUDEAU_1"/>
+			<m_ObjectName text="TRUDEAU_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TRUDEAU_2"/>
+			<m_ObjectName text="TRUDEAU_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau256"/>
+			<m_ObjectName text="Trudeau256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau32"/>
+			<m_ObjectName text="Trudeau32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau45"/>
+			<m_ObjectName text="Trudeau45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau48"/>
+			<m_ObjectName text="Trudeau48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau50"/>
+			<m_ObjectName text="Trudeau50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau55"/>
+			<m_ObjectName text="Trudeau55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau64"/>
+			<m_ObjectName text="Trudeau64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trudeau80"/>
+			<m_ObjectName text="Trudeau80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_128"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_32"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_TRUDEAU_UI_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_TRUDEAU_UI_50"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
