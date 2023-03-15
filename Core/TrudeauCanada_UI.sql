@@ -1,6 +1,3 @@
---=============================================
--- Atelier Civ / UI
---=============================================
 -----------------------------------------------	
 -- Types
 -----------------------------------------------	
@@ -81,9 +78,9 @@ FROM Features WHERE NaturalWonder = 0 AND FeatureType != 'FEATURE_VOLCANO' AND F
 -- Improvement_YieldChanges
 -----------------------------------------------------------------------------------	
 INSERT or REPLACE INTO Improvement_YieldChanges	
-		(ImprovementType,				YieldType,						YieldChange,	PrereqCivic)
-VALUES	('IMPROVEMENT_TRUDEAU_UI',		'YIELD_PRODUCTION',				2,				CIVIC_COLD_WAR),
-		('IMPROVEMENT_TRUDEAU_UI',		'YIELD_FOOD',					2,				CIVIC_COLD_WAR);
+		(ImprovementType,				YieldType,						YieldChange)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',		'YIELD_PRODUCTION',				2),
+		('IMPROVEMENT_TRUDEAU_UI',		'YIELD_FOOD',					2);
 		
 -----------------------------------------------------------------------------------
 -- Improvement_Adjacencies
@@ -96,7 +93,7 @@ VALUES	('IMPROVEMENT_TRUDEAU_UI',	'IMPROVEMENT_TRUDEAU_UI_TundraAdjacency'			),
 		('IMPROVEMENT_TRUDEAU_UI',	'IMPROVEMENT_TRUDEAU_UI_SnowHillsAdjacency'			);
 
 INSERT INTO Adjacency_YieldChanges
-		(ID,												Description,	YieldType,			YieldChange,	TilesRequired,		AdjacentDistrict		)
+		(ID,												Description,	YieldType,				YieldChange,	TilesRequired,		AdjacentDistrict		)
 VALUES	('IMPROVEMENT_TRUDEAU_UI_TundraAdjacency',			'Placeholder',	'YIELD_CULTURE',		1,				1,					'TERRAIN_TUNDRA'		),
 		('IMPROVEMENT_TRUDEAU_UI_TundraHillsAdjacency',		'Placeholder',	'YIELD_CULTURE',		1,				1,					'TERRAIN_TUNDRA_HILLS'	),
 		('IMPROVEMENT_TRUDEAU_UI_TundraAdjacency',			'Placeholder',	'YIELD_CULTURE',		1,				1,					'TERRAIN_SNOW'			),
@@ -115,7 +112,7 @@ VALUES	('IMPROVEMENT_TRUDEAU_UI',	'TOURISMSOURCE_CULTURE',			'TECH_FLIGHT',		100
 -- TraitModifiers
 -------------------------------------
 INSERT INTO TraitModifiers			
-		(TraitType,											ModifierId												)
+		(TraitType,											ModifierId					)
 VALUES	('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI', 		'TRUDEAU_UI_AMENITY'		);
 
 -------------------------------------
@@ -130,9 +127,9 @@ VALUES	('TRUDEAU_UI_AMENITY				',				'MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AM
 -- ModifierArguments
 -------------------------------------
 INSERT INTO ModifierArguments
-		(ModifierId,										Name,						Value										)
-VALUES	('TRUDEAU_UI_AMENITY',								'Amount',					1											),
-		('TRUDEAU_UI_STADIUM',								'YieldType',				YIELD_CULTURE								),
-		('TRUDEAU_UI_STADIUM',								'Amount',					4											);
+		(ModifierId,										Name,						Value			)
+VALUES	('TRUDEAU_UI_AMENITY',								'Amount',					1				),
+		('TRUDEAU_UI_STADIUM',								'YieldType',				YIELD_CULTURE	),
+		('TRUDEAU_UI_STADIUM',								'Amount',					4				);
 
 
