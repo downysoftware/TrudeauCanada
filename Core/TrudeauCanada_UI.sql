@@ -1,14 +1,16 @@
------------------------------------------------	
+--==========================================================================================================================
+-- IMPROVEMENTS
+--==========================================================================================================================
 -- Types
------------------------------------------------	
+----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types
-		(Type,									Kind)
-VALUES	('IMPROVEMENT_TRUDEAU_UI',		'KIND_IMPROVEMENT');
+		(Type,											Kind)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',						'KIND_IMPROVEMENT'),
+		('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI',	'KIND_TRAIT');
 
 -----------------------------------------------
 -- Traits
 -----------------------------------------------
-
 INSERT INTO Traits
 		(TraitType,										Name,									Description										)
 VALUES	('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI',	'LOC_IMPROVEMENT_TRUDEAU_UI_NAME',		'LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION'		);
@@ -132,4 +134,9 @@ VALUES	('TRUDEAU_UI_AMENITY',								'Amount',					1				),
 		('TRUDEAU_UI_STADIUM',								'YieldType',				YIELD_CULTURE	),
 		('TRUDEAU_UI_STADIUM',								'Amount',					4				);
 
-
+-----------------------------------------------
+-- MomentIllustrations
+-----------------------------------------------
+INSERT INTO MomentIllustrations
+		(MomentIllustrationType,					MomentDataType,				GameDataType,					Texture)
+VALUES	('MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT',	'MOMENT_DATA_IMPROVEMENT',	'IMPROVEMENT_TRUDEAU_UI',	'Moment_Infrastructure_Trudeau_UI.dds');

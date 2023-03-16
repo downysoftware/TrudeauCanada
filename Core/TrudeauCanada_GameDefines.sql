@@ -29,7 +29,8 @@ VALUES	('LEADER_TRUDEAU',	'AGENDA_CULTURAL_IMPORTS');
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LeaderTraits	
 		(LeaderType,									TraitType)
-VALUES	('LEADER_TRUDEAU',								'TRAIT_LEADER_ALLIANCE_BUILDER');
+VALUES	('LEADER_TRUDEAU',								'TRAIT_LEADER_ALLIANCE_BUILDER'),
+		('LEADER_TRUDEAU',								'TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI');
 
 ----------------------------------------------------------------------------------------------------------------------------
 -- FavoredReligions

@@ -42,8 +42,25 @@ FROM Players WHERE CivilizationType = 'CIVILIZATION_CANADA' AND LeaderType = 'LE
 -- PlayerItems
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT OR REPLACE INTO PlayerItems	
-		(CivilizationType,			Domain,	LeaderType,				  Type, Icon, Name, Description, SortIndex)
-SELECT	'CIVILIZATION_CANADA',		Domain,	'LEADER_TRUDEAU', Type, Icon, Name, Description, SortIndex
+		(
+		CivilizationType,
+		Domain,
+		LeaderType,
+		Type,
+		Icon,
+		Name,
+		Description,
+		SortIndex
+		)
+SELECT	'CIVILIZATION_CANADA',
+		Domain,
+		'LEADER_TRUDEAU',
+		'IMPROVEMENT_TRUDEAU_UI',
+		'ICON_IMPROVEMENT_TRUDEAU_UI',
+		'LOC_IMPROVEMENT_TRUDEAU_UI_NAME',
+		'LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION',
+		10
+		
 FROM PlayerItems WHERE CivilizationType = 'CIVILIZATION_CANADA' AND LeaderType = 'LEADER_LAURIER';	
 --==========================================================================================================================
 --==========================================================================================================================
