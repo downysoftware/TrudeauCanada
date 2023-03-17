@@ -179,7 +179,7 @@ VALUES	('CULTURAL_IMPORTS_ATTACKED_CONTINENT_AND_LEADS_SCIENCE_REQ_SET',	'REQUIR
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO LoadingInfo	
 		(LeaderType,				BackgroundImage,			ForegroundImage,					PlayDawnOfManAudio)
-VALUES	('LEADER_TRUDEAU',	'LEADER_GORGO_BACKGROUND', 	'LEADER_TRUDEAU_NEUTRAL',	0);	
+VALUES	('LEADER_TRUDEAU',			'LEADER_GORGO_BACKGROUND', 	'LEADER_TRUDEAU_NEUTRAL',			0);	
 --==========================================================================================================================
 -- LEADERS: TRAITS
 --==========================================================================================================================
@@ -187,20 +187,20 @@ VALUES	('LEADER_TRUDEAU',	'LEADER_GORGO_BACKGROUND', 	'LEADER_TRUDEAU_NEUTRAL',	
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO Types	
 		(Type,										Kind)
-VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',	'KIND_TRAIT');	
+VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',			'KIND_TRAIT');	
 --------------------------------------------------------------------------------------------------------------------------			
 -- Traits			
 --------------------------------------------------------------------------------------------------------------------------				
 INSERT INTO Traits				
 		(TraitType,									Name,												Description)
-VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',	'LOC_TRAIT_LEADER_ALLIANCE_BUILDER_NAME',	'LOC_TRAIT_LEADER_ALLIANCE_BUILDER_DESCRIPTION');	
+VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',			'LOC_TRAIT_LEADER_ALLIANCE_BUILDER_NAME',			'LOC_TRAIT_LEADER_ALLIANCE_BUILDER_DESCRIPTION');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,									ModifierId)
-VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',	'ALLIANCE_BUILDER_ALLIANCE_POINTS'),
-		('TRAIT_LEADER_ALLIANCE_BUILDER',	'ALLIANCE_BUILDER_EXTRA_DISTRICT');	
+VALUES	('TRAIT_LEADER_ALLIANCE_BUILDER',			'ALLIANCE_BUILDER_ALLIANCE_POINTS'),
+		('TRAIT_LEADER_ALLIANCE_BUILDER',			'ALLIANCE_BUILDER_EXTRA_DISTRICT');	
 --------------------------------------------------------------------------------------------------------------------------		
 -- AllianceEffects		
 --------------------------------------------------------------------------------------------------------------------------	
@@ -234,30 +234,30 @@ VALUES	('ALLIANCE_BUILDER_ALLIANCE_POINTS',					'Amount',		1),
 --------------------------------------------------------------------------------------------------------------------------
 INSERT OR REPLACE INTO RequirementArguments
 		(RequirementId,										Name,			Value)
-VALUES	('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ',		'LeaderType',	'LEADER_TRUDEAU');	
+VALUES	('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ',				'LeaderType',	'LEADER_TRUDEAU');	
 ----------------------------------------------------------------------------------------------------------------------------
 -- Requirements 
 ----------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Requirements
 		(RequirementId, 									RequirementType,									Inverse)
-VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ',				'REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS',	1),
-		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ',		'REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES',			0);
+VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ',						'REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS',	1),
+		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ',				'REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES',			0);
 ----------------------------------------------------------------------------------------------------------------------------
 -- RequirementSets
 ----------------------------------------------------------------------------------------------------------------------------
 INSERT INTO RequirementSets
 		(RequirementSetId,											RequirementSetType)
-VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ_SET',					'REQUIREMENTSET_TEST_ALL'),
-		('ALLIANCE_BUILDER_PLAYER_IS_ALLY_LEVEL_3_REQ_SET',	'REQUIREMENTSET_TEST_ALL'),
-		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ_SET',			'REQUIREMENTSET_TEST_ALL');
+VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ_SET',							'REQUIREMENTSET_TEST_ALL'),
+		('ALLIANCE_BUILDER_PLAYER_IS_ALLY_LEVEL_3_REQ_SET',			'REQUIREMENTSET_TEST_ALL'),
+		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ_SET',					'REQUIREMENTSET_TEST_ALL');
 ----------------------------------------------------------------------------------------------------------------------------	
 -- RequirementSetRequirements	
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO RequirementSetRequirements	
 		(RequirementSetId,											RequirementId)
-VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ_SET',					'ALLIANCE_BUILDER_AT_WAR_REQ'),
-		('ALLIANCE_BUILDER_PLAYER_IS_ALLY_LEVEL_3_REQ_SET',	'REQUIRES_PLAYER_IS_ALLY_LEVEL_3'),
-		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ_SET',			'ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ');
+VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ_SET',							'ALLIANCE_BUILDER_AT_WAR_REQ'),
+		('ALLIANCE_BUILDER_PLAYER_IS_ALLY_LEVEL_3_REQ_SET',			'REQUIRES_PLAYER_IS_ALLY_LEVEL_3'),
+		('ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ_SET',					'ALLIANCE_BUILDER_PLAYER_IS_MIN_REQ');
 --==========================================================================================================================
 -- CIVILIZATIONS
 --==========================================================================================================================
@@ -265,6 +265,120 @@ VALUES	('ALLIANCE_BUILDER_AT_WAR_REQ_SET',					'ALLIANCE_BUILDER_AT_WAR_REQ'),
 ----------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO CivilizationLeaders	
 		(CivilizationType,		LeaderType,					CapitalName)
-VALUES	('CIVILIZATION_CANADA',	'LEADER_TRUDEAU',	'LOC_CITY_NAME_OTTAWA');	
+VALUES	('CIVILIZATION_CANADA',	'LEADER_TRUDEAU',			'LOC_CITY_NAME_OTTAWA');	
+
 --==========================================================================================================================
+-- IMPROVEMENTS
 --==========================================================================================================================
+-- Types
+----------------------------------------------------------------------------------------------------------------------------	
+INSERT INTO Types
+		(Type,											Kind)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',						'KIND_IMPROVEMENT'),
+		('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI',	'KIND_TRAIT');
+
+-----------------------------------------------
+-- Traits
+-----------------------------------------------
+INSERT INTO Traits
+		(TraitType,										Name,									Description										)
+VALUES	('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI',	'LOC_IMPROVEMENT_TRUDEAU_UI_NAME',		'LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION'		);
+
+-----------------------------------------------
+-- Improvements
+-----------------------------------------------
+INSERT INTO Improvements	(
+		ImprovementType,
+		Name,
+		Description,
+		TraitType,
+		Icon,
+		Housing,
+		PrereqCivic,
+		Buildable,
+		OnePerCity,
+		PlunderType,
+		PlunderAmount,
+		TilesRequired,
+		SameAdjacentValid,
+		Appeal,
+		Domain
+		)
+VALUES  (
+		'IMPROVEMENT_TRUDEAU_UI', -- ImprovementType
+		'LOC_IMPROVEMENT_TRUDEAU_UI_NAME', -- Name
+		'LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION', -- Description
+		'TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI', -- TraitType
+		'ICON_IMPROVEMENT_TRUDEAU_UI', -- Icon
+		0, -- Housing
+		'CIVIC_COLONIALISM', -- PrereqCivic
+		1, -- Buildable
+		1, -- OnePerCity
+		'PLUNDER_HEAL', -- PlunderType
+		50, -- PlunderAmount
+		1, -- TilesRequired
+		1, -- SameAdjacentValid
+		2, -- Appeal
+		'DOMAIN_LAND' -- Domain
+		);
+
+-----------------------------------------------
+-- Improvement_ValidBuildUnits
+-----------------------------------------------
+INSERT INTO Improvement_ValidBuildUnits
+		(ImprovementType,			UnitType)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',	'UNIT_BUILDER');
+
+-----------------------------------------------
+-- Improvement_ValidTerrains
+-----------------------------------------------
+INSERT INTO Improvement_ValidTerrains
+		(ImprovementType,				TerrainType)
+SELECT	'IMPROVEMENT_TRUDEAU_UI',		TerrainType
+FROM Terrains WHERE Mountain = 0 AND Water = 0;
+
+-----------------------------------------------
+-- Improvement_ValidFeatures
+-----------------------------------------------
+INSERT INTO Improvement_ValidFeatures
+		(ImprovementType,				FeatureType)
+SELECT	'IMPROVEMENT_TRUDEAU_UI',		FeatureType
+FROM Features WHERE NaturalWonder = 0 AND FeatureType != 'FEATURE_VOLCANO' AND FeatureType NOT IN ('FEATURE_GEOTHERMAL_FISSURE', 'FEATURE_OASIS', 'FEATURE_REEF');
+
+
+-----------------------------------------------------------------------------------
+-- Improvement_Tourism
+-----------------------------------------------------------------------------------	
+DELETE FROM Improvement_Tourism WHERE ImprovementType = 'IMPROVEMENT_TRUDEAU_UI';
+
+INSERT INTO Improvement_Tourism	
+		(ImprovementType,			TourismSource,						PrereqTech,			ScalingFactor	)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',	'TOURISMSOURCE_CULTURE',			'TECH_FLIGHT',		100				);
+
+-------------------------------------
+-- TraitModifiers
+-------------------------------------
+INSERT INTO TraitModifiers			
+		(TraitType,											ModifierId					)
+VALUES	('TRAIT_CIVILIZATION_IMPROVEMENT_TRUDEAU_UI', 		'TRUDEAU_UI_AMENITY'		);
+
+-------------------------------------
+-- Modifiers
+-------------------------------------
+INSERT INTO Modifiers	
+		(ModifierId,										ModifierType,											SubjectRequirementSetId		)
+VALUES	('TRUDEAU_UI_AMENITY',								'MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY',		null						);
+
+-------------------------------------
+-- ModifierArguments
+-------------------------------------
+INSERT INTO ModifierArguments
+		(ModifierId,										Name,						Value			)
+VALUES	('TRUDEAU_UI_AMENITY',								'Amount',					1				);
+
+-----------------------------------------------
+-- MomentIllustrations
+-----------------------------------------------
+INSERT INTO MomentIllustrations
+		(MomentIllustrationType,					MomentDataType,				GameDataType,					Texture)
+VALUES	('MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT',	'MOMENT_DATA_IMPROVEMENT',	'IMPROVEMENT_TRUDEAU_UI',		'Moment_Infrastructure_Trudeau_UI.dds');

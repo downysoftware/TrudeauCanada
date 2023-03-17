@@ -24,7 +24,7 @@ Geo IMP_Tim_Hortons_CON mesh DIS_COM_Market_Modern_Bld_CON flagged for possible 
 Geo IMP_Tim_Hortons_CON mesh Object19930 flagged for possible vertex duplication. Vertex Count: 440, Index Count: 816, Tri Count 272, Reused Vertices: 228, Duplicate Vertices: 0, Duplicate Positions: 172, Vertex:Tri Ratio: 1.62
 Load finished for: 'landmarks/tilebases' in 0.176 seconds
 Cook finished for: 'landmarks/tilebases' in 0.001 seconds
-Disk write finished for: 'landmarks/tilebases' in 0.046 seconds
+Disk write finished for: 'landmarks/tilebases' in 0.044 seconds
 Cleanup finished for: 'landmarks/tilebases' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.234 seconds
+Cook completed in 0.230 seconds
