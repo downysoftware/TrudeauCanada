@@ -61,7 +61,7 @@
 						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="tim_hortons_visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
-							<m_XLPPath text="strategicview_improvements.xlp"/>
+							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
 							<m_LibraryName text="StrategicView_Sprite"/>
 							<m_ParamName text="Visible_XLPEntry"/>
@@ -79,7 +79,7 @@
 						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="tim_hortons_revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
-							<m_XLPPath text="strategicview_improvements.xlp"/>
+							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
 							<m_LibraryName text="StrategicView_Sprite"/>
 							<m_ParamName text="Revealed_XLPEntry"/>
@@ -97,7 +97,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="TRUDEAU_IMPROVEMENT_UI"/>
+				<m_Name text="TimHortons"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -106,7 +106,7 @@
 						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="tim_hortons_visible_pillaged"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
-							<m_XLPPath text="strategicview_improvements.xlp"/>
+							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
 							<m_LibraryName text="StrategicView_Sprite"/>
 							<m_ParamName text="Visible_XLPEntry"/>
@@ -124,7 +124,7 @@
 						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="tim_hortons_revealed_pillaged"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
-							<m_XLPPath text="strategicview_improvements.xlp"/>
+							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
 							<m_LibraryName text="StrategicView_Sprite"/>
 							<m_ParamName text="Revealed_XLPEntry"/>
@@ -142,7 +142,7 @@
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections/>
-				<m_Name text="TRUDEAU_IMPROVEMENT_UI_PILLAGED"/>
+				<m_Name text="TimHortonsPillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
@@ -186,7 +186,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TRUDEAU_IMPROVEMENT_UI"/>
+										<m_ElementName text="TimHortons"/>
 										<m_RootCollectionName text="ImprovementEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -205,7 +205,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TRUDEAU_IMPROVEMENT_UI"/>
+				<m_Name text="TimHortons"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -245,7 +245,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="TRUDEAU_IMPROVEMENT_UI_PILLAGED"/>
+										<m_ElementName text="TimHortonsPillaged"/>
 										<m_RootCollectionName text="ImprovementEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -264,7 +264,7 @@
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="TRUDEAU_IMPROVEMENT_UI_PILLAGED"/>
+				<m_Name text="TimHortonsPillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

@@ -352,15 +352,6 @@ INSERT INTO Improvement_YieldChanges
 		(ImprovementType,					YieldType,			YieldChange)
 VALUES	('IMPROVEMENT_TRUDEAU_UI',			'YIELD_FOOD',		2);
 
------------------------------------------------------------------------------------
--- Improvement_Tourism
------------------------------------------------------------------------------------	
-DELETE FROM Improvement_Tourism WHERE ImprovementType = 'IMPROVEMENT_TRUDEAU_UI';
-
-INSERT INTO Improvement_Tourism	
-		(ImprovementType,			TourismSource,						PrereqTech,			ScalingFactor	)
-VALUES	('IMPROVEMENT_TRUDEAU_UI',	'TOURISMSOURCE_CULTURE',			'TECH_FLIGHT',		100				);
-
 -------------------------------------
 -- TraitModifiers
 -------------------------------------

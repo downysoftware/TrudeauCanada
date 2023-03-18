@@ -24,9 +24,6 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="TrudeauCanada.Art.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="ArtDefs\" />
     <Folder Include="Assets\" />
     <Folder Include="Core\" />
@@ -309,6 +306,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\TRUDEAU_2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TrudeauCanada.Art.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">
