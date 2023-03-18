@@ -345,6 +345,12 @@ INSERT INTO Improvement_ValidFeatures
 SELECT	'IMPROVEMENT_TRUDEAU_UI',		FeatureType
 FROM Features WHERE NaturalWonder = 0 AND FeatureType != 'FEATURE_VOLCANO' AND FeatureType NOT IN ('FEATURE_GEOTHERMAL_FISSURE', 'FEATURE_OASIS', 'FEATURE_REEF');
 
+----------------------------------------------------------------------------------------------------------------------------
+-- Improvement_YieldChanges
+----------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Improvement_YieldChanges
+		(ImprovementType,					YieldType,			YieldChange)
+VALUES	('IMPROVEMENT_TRUDEAU_UI',			'YIELD_FOOD',		2);
 
 -----------------------------------------------------------------------------------
 -- Improvement_Tourism

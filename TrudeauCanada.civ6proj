@@ -224,6 +224,33 @@
     <Content Include="Textures\Moment_Infrastructure_Trudeau_UI.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Moment_Infrastructure_Trudeau_UI.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_revealed.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_revealed.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_revealed_pillaged.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_revealed_pillaged.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_visible.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_visible.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_visible_pillaged.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\tim_hortons_visible_pillaged.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Trudeau256.dds">
       <SubType>Content</SubType>
     </Content>
@@ -276,6 +303,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\TRUDEAU_1.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TRUDEAU_2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\TRUDEAU_2.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Icons.xlp">

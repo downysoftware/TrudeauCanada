@@ -44,7 +44,7 @@
 			<Text>Tim Hortons</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_TRUDEAU_UI_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Tim Hortons, unique to Canada.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Amenity. Provides [ICON_Tourism] Tourism from Culture once Flight is unlocked. +2 [ICON_FOOD] Food and [ICON_PRODUCTION] Production. +4 [ICON_CULTURE] Culture if adjacent to a Stadium building. One per city.</Text>
+			<Text>Unlocks the Builder ability to construct a Tim Hortons, unique to Canada.[NEWLINE][NEWLINE]+2 [ICON_FOOD] Food. +1 [ICON_AMENITIES] Amenity. Provides [ICON_Tourism] Tourism from Culture once Flight is unlocked. One per city.</Text>
 		</Row>
 		<!--Traits-->
 		<Row Tag="LOC_TRAIT_CULTURAL_IMPORTS_NAME" Language="en_US">

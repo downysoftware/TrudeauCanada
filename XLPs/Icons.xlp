@@ -22,6 +22,10 @@
 			<m_ObjectName text="TRUDEAU_2"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Moment_Infrastructure_Trudeau_UI"/>
+			<m_ObjectName text="Moment_Infrastructure_Trudeau_UI"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Trudeau256"/>
 			<m_ObjectName text="Trudeau256"/>
 		</Element>
