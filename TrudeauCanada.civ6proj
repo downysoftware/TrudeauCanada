@@ -47,6 +47,9 @@
     <Content Include="ArtDefs\StrategicView.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_Tim_Hortons.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\IMP_Tim_Hortons_Asset.ast">
       <SubType>Content</SubType>
     </Content>

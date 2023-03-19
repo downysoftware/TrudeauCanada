@@ -13,6 +13,10 @@
 			<m_EntryID text="IMP_Tim_Hortons_Asset"/>
 			<m_ObjectName text="IMP_Tim_Hortons_Asset"/>
 		</Element>
+		<Element>
+			<m_EntryID text="DIS_Tim_Hortons"/>
+			<m_ObjectName text="DIS_Tim_Hortons"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
